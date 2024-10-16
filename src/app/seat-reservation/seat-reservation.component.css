@@ -1,0 +1,25 @@
+.box{
+    width: 140px;
+    height: 25px;
+    text-align: center;
+}
+#bookbtn{
+    width: 90px;
+    height: 28px;
+}
+.coach{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.seat{
+    padding: 10px;
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.seat.booked{
+    background-color: red;
+    color: white;
+}
